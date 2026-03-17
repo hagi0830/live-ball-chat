@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from 'react';
 
-export default function Home() { // 이름을 Home으로 바꿔서 메인 페이지로 설정합니다.
+export default function Home() {
   const [delay, setDelay] = useState(0);
   const [messages, setMessages] = useState([
-    { id: 1, user: "JunHak", country: "🇰🇷", text: "오늘 경기 대박이네요!" },
-    { id: 2, user: "Alex", country: "🇬🇧", text: "Heung-Min Son is amazing!" }
+    { id: 1, user: "JunHak", country: "🇰🇷", text: "드디어 사이트가 오픈되었습니다! ⚽" },
+    { id: 2, user: "Alex", country: "🇬🇧", text: "Congratulations on your new site!" }
   ]);
 
   return (
